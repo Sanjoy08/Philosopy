@@ -1,0 +1,313 @@
+body {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.top_area {
+    background-color: #19191b;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.social a {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.logo_name img {
+    width: 18rem;
+}
+
+.search span {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+
+.search a {
+    font-size: 1rem;
+}
+
+.divider {
+    width: 90%;
+    height: 0.1rem;
+    background-color: #2f2f31;
+}
+
+.opt {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    /* width: 70%; */
+}
+
+.opt a {
+    color: #9d9d9e;
+    font-weight: bold;
+}
+
+.part1 {
+    display: flex;
+}
+
+.sub1 {
+    width: 70%;
+}
+
+.sub1 img {
+    width: 100%;
+    height: 33rem;
+}
+
+.sub2once img {
+    width: 23rem;
+    height: 16.5rem;
+}
+
+.sub2sec img {
+    width: 23rem;
+    height: 16.2rem;
+}
+
+.guitar_cap {
+    position: absolute;
+    bottom: -1rem;
+    margin-left: 3rem;
+}
+
+.guitar_cap span {
+    font-size: 0.7rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #25b5b5;
+    color: white;
+}
+
+.sub1_info {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.author_info {
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(112, 110, 110);
+    font-weight: bold;
+}
+
+.author_info img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.watch_cap {
+    position: absolute;
+    bottom: 13rem;
+    padding: 0 2.5rem;
+}
+
+.sub2_info {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.author_name {
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+}
+
+.watch_cap span {
+    font-size: 0.7rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(57 131 33);
+    color: white;
+}
+
+.sub2sec_cap {
+    position: absolute;
+    bottom: -3rem;
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.sub2sec_cap span {
+    font-size: 0.7rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(57 131 33);
+    color: white;
+}
+
+.part2 {
+    margin-top: 5rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 2rem;
+    background-color: aliceblue;
+}
+
+.first_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.third_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.cap_date {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.cap_head {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.cap_head_extra {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.cap_info {
+    margin-top: 1.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #9d9d9e;
+    line-height: 25px;
+}
+
+.tags {
+    margin-top: 4rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(33, 33, 184);
+}
+
+.cap_img {
+    width: 20rem;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 20rem;
+    background-color: white;
+}
+
+.every_info {
+    padding: 2rem;
+}
+
+.bi-link-45deg {
+    font-size: 2rem;
+    color: #9d9d9e;
+    margin-bottom: 1.5rem;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: #9d9d9e;
+}
+
+.slider {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.slider a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.arro {
+    background-color: white;
+    border-radius: 100%;
+}
+
+.all_content {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.content img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.c1,
+.c2,
+.c3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.authr {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #9d9d9e;
+}
